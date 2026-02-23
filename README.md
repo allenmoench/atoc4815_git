@@ -1,1 +1,61 @@
-# atoc4815_git
+# ATOC 4815/5815 Git Practice Repository
+
+Welcome! This repository is your safe space to practice Git commands. **You cannot break anything here** -- if something goes wrong, just delete the folder and clone again.
+
+## Quick Setup
+
+```bash
+# Clone this repository
+git clone https://github.com/WillyChap/atoc4815-git-practice.git
+
+# Move into the folder
+cd atoc4815-git-practice
+```
+
+## Exercises
+
+### Exercise 1: Boulder Temperatures (`boulder_temperatures.py`)
+- Add your name to the file
+- Calculate average, max, and min January temperatures
+- Commit your changes
+
+### Exercise 2: Denver Wind Analysis (`denver_wind_analysis.py`)
+- Calculate average wind speed
+- Count wind advisory days (winds > 25 mph)
+- Commit your changes
+
+## The 5-Command Cheat Sheet
+
+| Command | What it does | Safe? |
+|---------|-------------|-------|
+| `git status` | Shows what changed | 100% safe |
+| `git add <file>` | Stages a file for saving | Safe |
+| `git commit -m "message"` | Saves a snapshot | Safe |
+| `git push` | Uploads to GitHub | Safe |
+| `git pull` | Downloads from GitHub | Safe |
+
+## The Daily Workflow
+
+```bash
+git status                        # 1. What changed?
+git add myfile.py                 # 2. Stage changes
+git commit -m "Describe changes"  # 3. Save snapshot
+git push                          # 4. Upload to GitHub
+```
+
+## Something went wrong?
+
+**Don't panic!** The nuclear option always works:
+
+```bash
+cd ..
+rm -rf atoc4815-git-practice
+git clone https://github.com/WillyChap/atoc4815-git-practice.git
+```
+
+This deletes your local copy and starts fresh. Your work on GitHub is safe.
+
+## Contact
+
+- Will Chapman (wchapman@colorado.edu)
+- Office hours: Tu 11:15-12:15p, Th 9-10a (Aerospace Cafe)
