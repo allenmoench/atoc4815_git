@@ -6,10 +6,10 @@ Welcome! This repository is a space to practice Git commands. If something goes 
 
 ```bash
 # Clone this repository
-git clone https://github.com/WillyChap/atoc4815-git-practice.git
+git clone https://github.com/WillyChap/atoc4815-git.git
 
 # Move into the folder
-cd atoc4815-git-practice
+cd atoc4815-git
 ```
 
 ## Exercises
@@ -49,8 +49,8 @@ The nuclear option always works:
 
 ```bash
 cd ..
-rm -rf atoc4815-git-practice
-git clone https://github.com/WillyChap/atoc4815-git-practice.git
+rm -rf atoc4815_git
+git clone https://github.com/WillyChap/atoc4815_git.git
 ```
 
 This deletes your local copy and starts fresh. Your work on GitHub is safe.
