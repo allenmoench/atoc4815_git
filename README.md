@@ -1,6 +1,6 @@
 # ATOC 4815/5815 Git Practice Repository
 
-Welcome! This repository is your safe space to practice Git commands. **You cannot break anything here** -- if something goes wrong, just delete the folder and clone again.
+Welcome! This repository is a space to practice Git commands. If something goes wrong, just delete the folder and clone again.
 
 ## Quick Setup
 
