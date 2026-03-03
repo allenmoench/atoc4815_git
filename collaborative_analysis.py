@@ -1,5 +1,5 @@
 """
-Collaborative Weather Analysis -- edited on main
+Collaborative Weather Analysis -- edited on branch
 ATOC 4815/5815 - Git Collaboration Exercise
 
 Instructions:git ad
@@ -33,6 +33,8 @@ def fahrenheit_to_celsius(temp_f):
         Temperature in Celsius.
     """
     # TODO (Partner A): implement the conversion
+    temp_c = (temp_f - 32) * 5 / 9
+    return temp_c
     pass
 
 
